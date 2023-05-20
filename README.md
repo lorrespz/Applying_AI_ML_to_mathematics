@@ -1,4 +1,4 @@
-# Constructing_Lie_algebra_generators
+# Constructing classical Lie algebra generators
 
 A Jupyter notebook to create generators for the classical Lie algebras SO(n), SU(n) and SL(n)
 
@@ -22,3 +22,5 @@ $SU(n)$ and $SO(n)$, also to smaller extent $SL(n)$, have numerous applications 
     
     
  2. In high-energy physics, $SU(2)$ and $SU(3)$, respectively, are the gauge groups of the weak interaction (more commonly known in its unified version with $U(1)$ as electroweak theory https://en.wikipedia.org/wiki/Electroweak_interaction) and quantum chromodynamics (https://en.wikipedia.org/wiki/Quantum_chromodynamics). The standard model of particle physics (https://en.wikipedia.org/wiki/Standard_Model) is based on the product gauge group $U(1)\times SU(2)\times SU(3)$, which describes the 3 known forces: electromagnetism, strong and weak nuclear forces. 
+
+ In the Jupyter notebook, generators for $SU(n)$ groups are constructed recursively starting with the $n=2$ case, in which the $SU(2)$ generators are the Pauli matrices. $SO(n)$ generators are defined very straightforwardly as real, antisymmetric matrices. $SL(n)$ generators are obtained from those of $SU(n)$ groups by a simple conversion. The procedure to check for the closure of the algebras and the extraction of the associated structure constants are implemented. 
