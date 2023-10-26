@@ -1,3 +1,5 @@
+# Applying AI/ML to mathematics
+
 This repo contains a collection of Jupyter notebooks that sometimes apply AI/ML techniques to construct various objects from mathematics. 
 
 ## 1. Constructing classical Lie algebra generators
