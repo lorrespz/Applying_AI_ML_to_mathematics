@@ -1,4 +1,6 @@
-# Constructing classical Lie algebra generators
+This repo contains a collection of Jupyter notebooks that sometimes apply AI/ML techniques to construct various objects from mathematics. 
+
+## 1. Constructing classical Lie algebra generators
 
 A Jupyter notebook to create generators for the classical Lie algebras SO(n), SU(n) and SL(n)
 
